@@ -1,9 +1,8 @@
-#Question 1
-
 import random
 import matplotlib.pyplot as plt
 import numpy as np 
 
+#Uniform Random Number Generator
 #Generating random numbers between [0,1).
 random.seed(123) #Setting the seed
 M = np.random.random(100000) #Generating a 1 by 10000 array of random numbers between 0 and 1.
