@@ -1,11 +1,7 @@
-#Question 3
-
-#Part(a)
 #M/M/1 queue from the congestion point of view
 import random
 import numpy as np
 import matplotlib.pyplot as plt
-
 
 #Input parameters
 simulation_time = input("Total simulation time: ")
@@ -67,8 +63,7 @@ plt.ylabel('Number of customers in the queue')
 plt.title('Queue length vs time in M/M/1 queue')
 plt.show()
 
-
-#########################################################
+###################################################################################################################################
 
 def pi(x):
   count = 0
@@ -91,7 +86,7 @@ plt.ylabel('Probability of n customers in the queue')
 plt.title('pi_n vs n in M/M/1 queue')
 plt.show()
 
-###########################################################
+####################################################################################################################################
 
 print('Expected number of customers in the queue is', np.mean(y))
 print('Expected delay is', np.mean(waiting_times))
