@@ -14,10 +14,9 @@ def prob(x):
   for i in range(100000):
       if M[i-1] > x:
           count = count + 1
-
   return(count/100000.0)
 
-
+#Plot
 x = np.arange(0.0, 1.0, 0.0001)
 y = [1-prob(i) for i in x]
 x2 = np.arange(0.0, 1.0, 0.0001)
@@ -29,19 +28,17 @@ plt.ylim([0.0, 1.0])
 plt.xlabel('x') 
 plt.ylabel('P(U<=x)') 
 plt.legend()
- 
 plt.show()
 
 
 
-x = np.arange(0.4, 0.61, 0.0001)
-y = [prob(i) for i in x]
-
-plt.plot(x, y)
-plt.xlim([0.4, 0.6])
-plt.xlabel('x') 
-plt.ylabel('Pr(U>x)') 
-plt.show()
+#x = np.arange(0.4, 0.61, 0.0001)
+#y = [prob(i) for i in x]
+#plt.plot(x, y)
+#plt.xlim([0.4, 0.6])
+#plt.xlabel('x') 
+#plt.ylabel('Pr(U>x)') 
+#plt.show()
 
 
 
