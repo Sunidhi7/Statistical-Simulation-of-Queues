@@ -1,3 +1,5 @@
+#Generating Exponential Random Variable
+
 import random
 import numpy as np
 import matplotlib.pyplot as plt
@@ -5,11 +7,9 @@ import matplotlib.pyplot as plt
 np.random.seed(123)
 N = 10000
 
-# Generating exponential random variable
 lambda_e = 2
 U = np.random.random(N)
 X = -np.log(U) / lambda_e
-
 print(X)
 
 
