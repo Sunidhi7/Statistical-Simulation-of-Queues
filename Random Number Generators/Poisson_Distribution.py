@@ -1,11 +1,11 @@
+# Generating Poisson random variable
+
 import math
 import random
 import numpy as np
 import matplotlib.pyplot as plt
 
 N = 100000
-
-# Generating Poisson random variable
 lambda_p = 8
 X = []
 for i in range(N):
@@ -30,7 +30,6 @@ def factorial(q):
        return 1
    else:
        return q*factorial(q-1)
-
 
 x = np.arange(0, np.amax(X)+1 , 1)
 y = [prob(i) for i in x]
