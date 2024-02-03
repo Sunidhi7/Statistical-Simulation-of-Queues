@@ -2,11 +2,9 @@
 
 import random
 import numpy as np
-import matplotlib.pyplot as plt
 
 np.random.seed(123)
 N = 10000
-
 lambda_e = 2
 U = np.random.random(N)
 X = -np.log(U) / lambda_e
