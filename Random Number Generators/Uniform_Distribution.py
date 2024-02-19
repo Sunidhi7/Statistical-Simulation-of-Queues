@@ -6,7 +6,7 @@ import numpy as np
 
 #Generating random numbers between [0,1).
 random.seed(123) #Setting the seed
-M = np.random.random(100000) #Generating a 1 by 10000 array of random numbers between 0 and 1.
+M = np.random.random(100000) #Generating a 1 by 100000 array of random numbers between 0 and 1.
 
 #CDF
 def prob(x):
@@ -32,13 +32,7 @@ plt.show()
 
 
 
-#x = np.arange(0.4, 0.61, 0.0001)
-#y = [prob(i) for i in x]
-#plt.plot(x, y)
-#plt.xlim([0.4, 0.6])
-#plt.xlabel('x') 
-#plt.ylabel('Pr(U>x)') 
-#plt.show()
+
 
 
 
