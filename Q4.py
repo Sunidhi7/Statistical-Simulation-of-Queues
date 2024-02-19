@@ -1,6 +1,3 @@
-#Question 4
-
-#Part(a)
 #M/E_k/1 queue from congestion point of view
 import random
 import numpy as np
@@ -119,8 +116,6 @@ plt.legend(loc="upper right")
 plt.show()	
 
 #######################################################
-#Part(c)
-
 #M/D/1 queue
 def md1(simulation_time, lambd, mu): 
     
