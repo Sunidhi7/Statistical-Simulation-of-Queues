@@ -1,4 +1,3 @@
-# Question 5
 # GI/M/1 queue 
 
 import random
