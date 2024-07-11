@@ -1,6 +1,4 @@
-#Question 6 and 7
-
-#Question 6 (M/M/1 queue from the point of view of workload for FIFO and LCFS under a preemptive priority serving schedule) 
+#M/M/1 queue from the point of view of workload for FIFO and LCFS under a preemptive priority serving schedule
 
 import random
 import numpy as np
@@ -93,7 +91,7 @@ print('Average workload in the system for FIFO as well as LCFS under a preemptiv
 
 ##################################################
 
-#Question 7 (Average number in the queue)
+#Average number in the queue
 
 #Number of customers in the queue at time t denoted by Q(t)
 #Assuming Q(0) is 0, i.e., the number of customers in the queue at time 0 is 0. 
